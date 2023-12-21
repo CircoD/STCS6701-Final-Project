@@ -18,13 +18,13 @@ For each model, use the `./code/<model>/run.ipynb` file to customize the hyperpa
 
 ## References
 Paper: 
-[beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework](https://openreview.net/forum?id=Sy2fzU9gl)
-[Adversarial Autoencoders](https://arxiv.org/abs/1511.05644)
+- [beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework](https://openreview.net/forum?id=Sy2fzU9gl)
+- [Adversarial Autoencoders](https://arxiv.org/abs/1511.05644)
 
 
 Some of the code is based on the following repositories:
-"[PyTorch-VAE]": https://github.com/AntixK/PyTorch-VAE
-"[adversarial-autoencoder]": https://github.com/musyoku/adversarial-autoencoder 
+- "[PyTorch-VAE]": https://github.com/AntixK/PyTorch-VAE
+- "[adversarial-autoencoder]": https://github.com/musyoku/adversarial-autoencoder 
 
 
 

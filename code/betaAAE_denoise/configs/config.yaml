@@ -1,0 +1,25 @@
+model_config:
+  hidden_dims:
+  - 32
+  - 64
+  - 128
+  - 256
+  - 512
+  image_height: 32
+  image_width: 32
+  in_channels: 3
+  latent_dim: 128
+  num_classes: 10
+  seed: 42
+training_config:
+  beta: 1
+  epochs: 100
+  gamma: 0.1
+  learning_rate: 0.0001
+  milestones:
+  - 150
+  - 200
+  noise_var: 1
+  seed: 42
+  tb_log_dir: ./runs/betaAAE_denoise_var=1.beta=1.
+  tb_verbose: true

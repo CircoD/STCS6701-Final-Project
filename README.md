@@ -16,8 +16,23 @@ For each model, use the `./code/<model>/run.ipynb` file to customize the hyperpa
 - The train and test losses will be printed out after each epoch. 
 - Five examples of reconstructed test images will be printed out along with the corresponding original images after all epochs are done.
 
+## References
+Paper: 
+- [beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework](https://openreview.net/forum?id=Sy2fzU9gl)
+- [Adversarial Autoencoders](https://arxiv.org/abs/1511.05644)
+
+
+Some of the code is based on the following repositories:
+- [PyTorch-VAE](https://github.com/AntixK/PyTorch-VAE)
+- [adversarial-autoencoder](https://github.com/musyoku/adversarial-autoencoder)
+
+
+
 ***Note:***
 - Using your GPU during training is highly recommended. 
 - Each run generates a required config file corresponding to the customized hyperparameters under `.code/<model>/configs/config_<hyperparameters>` directory.
 - Each run generates a required tensorboard file under `./code/<model>/runs/<model_and_hyperparameters>` directory.
 - Use  `tensorboard --logdir <tensorboard_dir>` to look at train and test losses.
+
+
+

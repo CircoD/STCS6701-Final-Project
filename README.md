@@ -23,8 +23,8 @@ Paper:
 
 
 Some of the code is based on the following repositories:
-- "[PyTorch-VAE]": https://github.com/AntixK/PyTorch-VAE
-- "[adversarial-autoencoder]": https://github.com/musyoku/adversarial-autoencoder 
+- [PyTorch-VAE]: https://github.com/AntixK/PyTorch-VAE
+- [adversarial-autoencoder]: https://github.com/musyoku/adversarial-autoencoder 
 
 
 
